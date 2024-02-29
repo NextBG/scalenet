@@ -1,0 +1,25 @@
+# IO parameters
+dataset_dir: "/home/caoruixiang/datasets_mnt/scalenet"
+eval_ratio: 0.1
+seed: 0
+
+# Model parameters
+enc_dim: 64
+sa_layers: 2
+sa_heads: 2
+sa_ff_dim_factor: 4
+max_scale_factor: 1.0
+offset_min: 2
+offset_max: 8
+num_samples: 4
+
+# Learning parameters
+epochs: 40
+lr: 0.0001
+batch_size: 320
+num_workers: 4
+
+# Other parameters
+save_interval: 100
+checkpoint: ""
+use_wandb: True
